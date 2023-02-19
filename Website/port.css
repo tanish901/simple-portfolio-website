@@ -1,0 +1,220 @@
+body{
+    font-family: 'Poppins',sans-serif;
+    background-color: rosybrown;
+}
+section{
+    height: 500px;
+    background-color: rosybrown;
+    border:solid black 1px;
+    color: Lavender;
+}
+
+.hero{
+    height:100vh;
+    background-color:rosybrown;
+    color: Lavender;
+    font-size: 40px;
+}
+footer{
+ height:500px;
+ background-color: rosybrown;
+ height: 40vh;
+ color: Lavender;
+ padding: 50px;
+}
+@media only screen and (max-widht:1100px){
+    .project-container{
+        display: flex;
+        flex-wrap:wrap;
+    }
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+ul{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-around;
+    font-size: 30px;
+    color: Lavender;
+}
+
+li{
+    width: 200px;
+}
+.logo{
+    color: #ffffff;
+}
+
+h1{
+    font-size: 70px;
+    margin: 0px;
+    color: black;
+}
+h2{
+font-size: 50px;
+}
+.Projects{
+    font-size: 200px;
+}
+p{
+    font-size: 25px;
+    margin: 0px;
+    font-weight: 300;
+}
+
+.subtext{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.hero-text{
+    margin-left: 80px;
+}
+.hero-area{
+    display: flex;
+     height: 100%;
+     justify-content: space-between;
+     align-items: center;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: coral;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 10px;
+    padding-top: 5px;
+    
+      
+}
+.button:hover{
+    background-color: red;
+}
+
+.button:active{
+background-color: rgb(19, 18, 18);
+color:skyblue;
+}
+.socials{
+    padding-bottom: 20px;
+    
+
+}
+
+img{
+  height: 300px;
+  
+}
+.logo{
+    height: 80px;
+    margin: 20px;
+}
+.social{
+    margin:20px;
+ 
+}
+.sub-section{
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.sub-section-alternative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    height: 90vh;
+    color:honeydew;
+}
+.prj{
+    color:rgb(19, 18, 18)
+}
+.pic{
+    padding-top: 40px;
+    
+}
+
+.pic-container{
+    display: flex;
+    align-items: center;
+}
+
+.project-card{
+    width: 500px;
+    height: 630px;
+    border:1px solid Lavender;
+    box-shadow: 5px 5px 20px rgb(123, 139, 148);
+font-size :25px; 
+background-color: lavender;
+color:black;
+}
+
+.project-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-image{
+    margin: 7px;
+    border-radius: 30px;
+}
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.project-link{
+    text-decoration:none;
+    color: Teal;
+}
+a{
+    text-decoration: none;
+   
+}
+input[type="text"]
+{
+    font-size:25px;
+    text-align:center;
+}
+input[type="tel"]
+{
+    font-size:25px;
+    text-align:center;
+}
+input[type="submit"]
+{
+    font-size:25px;
+     text-align:center;
+}
+input[type="email"]
+{
+    font-size:25px; 
+    text-align:center;
+    color: Lavender;
+}
+.group{
+    font-size: 25px;
+    text-align:center;
+    color:black;
+    
+}
+.contact{
+    padding: 10px;
+    height: 20px;
+    color:black;
+   
+}
+.group>p{
+    font-size: 34px;
+    color:black;
+}
+label{
+    color: lavender;
+}
